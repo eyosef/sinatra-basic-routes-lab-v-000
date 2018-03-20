@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/hometown' do
-    "My hometown is "
+    resp.write "My hometown is "
     resp.status = 200
   end
 
