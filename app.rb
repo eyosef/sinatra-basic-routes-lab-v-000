@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/hometown' do
+    resp.status = 200
   end
 
 end
